@@ -65,7 +65,7 @@ subplot(211)
 x0=-86.0;
 y0=29.75;
 plot([x0 x0+0.6],[y0 y0+0.6],'.r','MarkerSize',1)
-plot_google_map('maptype','satellite','APIKey','AIzaSyBeu2oRBtLClpcm4i2VDIXltuzMAOY5yX4')
+plot_google_map('maptype','satellite','APIKey','nothing')
 hold on
 
 pcolor(xx,yy,zz(:,:,k)),shading flat
